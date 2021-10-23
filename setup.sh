@@ -65,3 +65,37 @@ python manage.py createsuperuser
 # Password:
 # Password (again):
 # Superuser created successfully.
+
+
+# geojsonファイルからdjangoのmodels.pyで定義するテーブルクラス定義のソースコードをogrinspectコマンドを使って自動的に生成します。
+# ogrinspectコマンドを使うとgeojsonファイルを解析してdjangoのmodels.pyで定義するモデルクラスのソースコードを自動的に生成してくれます。
+
+
+
+
+# コマンドのオプションは以下の通りです。
+# python manage.py ogrinspect --srid=<コード番号> <geojsonファイル名>
+# <テーブルクラス名>
+
+# 今回は空間参照系を識別するためのSRIDに4326を指定しています。
+# cd C:\geodjango\tutorial
+python .\manage.py ogrinspect --srid=4326 .\35_yamaguchi_HinanPoint.geojson Evacuation
+## This is an auto-generated Django model module created by ogrinspect.
+# from django.contrib.gis.db import models
+
+# class Evacuation(models.Model):
+#     指定緊急避難場所 = models.CharField(max_length=0)
+#     所在地 = models.CharField(max_length=0)
+#     洪水 = models.CharField(max_length=0)
+#     がけ崩れ、土石流及び地滑り = models.CharField(max_length=0)
+#     高潮 = models.CharField(max_length=0)
+#     地震 = models.CharField(max_length=0)
+#     津波 = models.CharField(max_length=0)
+#     大規模な火事 = models.CharField(max_length=0)
+#     内水氾濫 = models.CharField(max_length=0)
+#     火山現象 = models.CharField(max_length=0)
+#     geom = models.PointField(srid=4326)
+
+# 出力されたDjangoModelを　model.py　に張り付ける。下記２点の注意を踏まえて修正しておく。
+# ①カラム名はgeojsonファイル内の情報をそのまま利用するので日本語の部分はアルファベットに修正が必要。
+# ②カラムのデータ長（max_length)はデフォルトですべて0として表示されるので適切なデータ長に修正が必要。

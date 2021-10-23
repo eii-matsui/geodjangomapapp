@@ -5,3 +5,4 @@ postgresql.password
 *.pyc
 geodjango/tutorial/tutorial/__pycache__/settings.cpython-39.pyc
 geodjango/tutorial/tutorial/__pycache__/settings.cpython-39.pyc
+geodjango/tutorial/35_yamaguchi_HinanPoint.geojson
