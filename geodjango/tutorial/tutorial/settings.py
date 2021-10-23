@@ -10,6 +10,27 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+#　環境変数の設定
+import os
+
+if os.name == 'nt':
+    import platform
+    POSTGRES = r"C:\Program Files\PostgreSQL\11"
+    OSGEO4W = r"C:\OSGeo4W64"
+
+    if '64' in platform.architecture()[0]:
+        OSGEO4W += "64"
+    assert os.path.isdir(OSGEO4W), "Diresctory does not exist: " + OSGEO4W
+
+    os.environ["OSGEO4W_ROOT"] = OSGEO4W
+    os.environ["POSTGRES_ROOT"] = POSTGRES
+    os.environ["GDAL_LIBRARY_PATH"] = OSGEO4W + r"\bin"
+    os.environ["GEOS_LIBRARY_PATH"] = OSGEO4W + r"\bin"
+    os.environ["GDAL_DATA"] = OSGEO4W + r"\share\gdal"
+    os.environ["PROJ_LIB"] = OSGEO4W + r"\share\proj"
+    os.environ["PATH"] = OSGEO4W + r"\bin;" + POSTGRES + r"\bin;" + os.environ['PATH']
+
+
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
