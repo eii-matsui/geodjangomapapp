@@ -99,3 +99,18 @@ python .\manage.py ogrinspect --srid=4326 .\35_yamaguchi_HinanPoint.geojson Evac
 # 出力されたDjangoModelを　model.py　に張り付ける。下記２点の注意を踏まえて修正しておく。
 # ①カラム名はgeojsonファイル内の情報をそのまま利用するので日本語の部分はアルファベットに修正が必要。
 # ②カラムのデータ長（max_length)はデフォルトですべて0として表示されるので適切なデータ長に修正が必要。
+
+
+# model.py の定義ができたら
+# EvacuationテーブルをPostgreSQLデータベースへ登録します。
+
+python manage.py makemigrations
+# Migrations for 'map':
+#   map\migrations\0001_initial.py
+#     - Create model Evacuation
+
+python manage.py migrate
+# Operations to perform:
+#   Apply all migrations: admin, auth, contenttypes, map, sessions
+# Running migrations:
+#   Applying map.0001_initial... OK
