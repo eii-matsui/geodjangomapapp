@@ -1,3 +1,7 @@
 venv/
 
 postgresql.password
+*.pyc
+*.pyc
+geodjango/tutorial/tutorial/__pycache__/settings.cpython-39.pyc
+geodjango/tutorial/tutorial/__pycache__/settings.cpython-39.pyc
