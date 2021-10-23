@@ -114,3 +114,25 @@ python manage.py migrate
 #   Apply all migrations: admin, auth, contenttypes, map, sessions
 # Running migrations:
 #   Applying map.0001_initial... OK
+
+
+
+# データ取り込みスクリプト　load_data.pyを作成したらDjango　shellで実行
+cd C:\geodjango\tutorial
+
+python manage.py shell
+>>from map import load_data
+>>load_data.run()          
+
+# ～省略～
+# Saved: 佐賀保育園
+# Saved: 佐賀地域交流センター尾国分館及び運動広場
+# Saved: 佐賀地域交流センター佐合分館及び広場
+# Saved: 阿武町町民センター
+# Saved: 阿武町体育センター
+# Saved: 阿武小中学校屋内運動場
+# Saved: 山口県立奈古高等学校屋内運動場
+# Saved: 阿武町のうそんセンター
+# Saved: 阿武町ふれあいセンター
+
+# geojsonのデータがPostgreSQLデータベースに登録されます。admin　サイトで確認
