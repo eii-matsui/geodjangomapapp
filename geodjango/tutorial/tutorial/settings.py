@@ -58,6 +58,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.gis',#GIS機能
+    'map.apps.MapConfig',#map appの設定
 ]
 
 MIDDLEWARE = [
