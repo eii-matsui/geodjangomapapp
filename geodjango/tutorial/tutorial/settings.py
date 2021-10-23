@@ -59,6 +59,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.gis',#GIS機能
     'map.apps.MapConfig',#map appの設定
+    'leaflet'
 ]
 
 MIDDLEWARE = [

@@ -136,3 +136,21 @@ python manage.py shell
 # Saved: 阿武町ふれあいセンター
 
 # geojsonのデータがPostgreSQLデータベースに登録されます。admin　サイトで確認
+
+
+# Mapのデザインを変更
+pip　install　django-leaflet
+# Collecting django-leaflet
+#   Downloading django_leaflet-0.28.1-py3-none-any.whl (664 kB)
+#      |████████████████████████████████| 664 kB 3.3 MB/s
+# Requirement already satisfied: Django in c:\users\adesu1\onedrive\document\github\geodjangomapapp\venv\geodjango\lib\site-packages (from django-leaflet) (3.2.8)
+# Collecting asgiref<4,>=3.3.2
+#   Using cached asgiref-3.4.1-py3-none-any.whl (25 kB)
+# Requirement already satisfied: sqlparse>=0.2.2 in c:\users\adesu1\onedrive\document\github\geodjangomapapp\venv\geodjango\lib\site-packages (from Django->django-leaflet) (0.3.1)
+# Requirement already satisfied: pytz in c:\users\adesu1\onedrive\document\github\geodjangomapapp\venv\geodjango\lib\site-packages (from Django->django-leaflet) (2019.3)
+# Installing collected packages: asgiref, django-leaflet
+#   Attempting uninstall: asgiref
+#     Found existing installation: asgiref 3.2.7
+#     Uninstalling asgiref-3.2.7:
+#       Successfully uninstalled asgiref-3.2.7
+# Successfully installed asgiref-3.4.1 django-leaflet-0.28.1
