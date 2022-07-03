@@ -1,4 +1,5 @@
 venv/
+*.url
 
 postgresql.password
 *.pyc
