@@ -62,8 +62,8 @@ python manage.py migrate
 python manage.py createsuperuser
 # ユーザー名 (leave blank to use 'adesu1'): manager
 # メールアドレス:
-# Password:
-# Password (again):
+# Password:kuLcSkn2
+# Password (again):kuLcSkn2
 # Superuser created successfully.
 
 
@@ -156,5 +156,12 @@ pip　install　django-leaflet
 # Successfully installed asgiref-3.4.1 django-leaflet-0.28.1
 
 
+
+
+# Djangoビューの設定
+
+# ここでは、Evacuationテーブルに格納されている指定避難所データを全件取得してテンプレートファイル（index.html)にレンダリングする処理を実装します。
+
+# C:\geodjango\tutorial\map\views.pyを開いて以下のコードを記載しましょう。
 
 
