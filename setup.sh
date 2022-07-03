@@ -165,3 +165,8 @@ pip　install　django-leaflet
 # C:\geodjango\tutorial\map\views.pyを開いて以下のコードを記載しましょう。
 
 
+# <!-- pythonコードを記述する際には　{%　Python　%}　で記述する -->
+
+
+GoogleAPIkey
+AIzaSyC0kKR_GRmV0eCX-WD-zf47L_xtD6HPHlI

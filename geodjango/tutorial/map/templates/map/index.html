@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="'ja">
+    <head>
+        <meta charset="utf-8">
+        <title>山口県の避難所地図</title>
+    </head>
+    <body>
+        <h1>緊急避難所Map</h1>
+        {% for object in object_list %}
+        {{object.evacuation_site}}:{{object.geom}}<br>
+        {% endfor %}
+    </body>
+</html>
