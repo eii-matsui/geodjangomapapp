@@ -166,7 +166,14 @@ pip　install　django-leaflet
 
 
 # <!-- pythonコードを記述する際には　{%　Python　%}　で記述する -->
+        <!-- {% for object in object_list %}
+        {{object.evacuation_site}}:{{object.geom}}<br>
+        {% endfor %} -->
 
 
-GoogleAPIkey
-AIzaSyC0kKR_GRmV0eCX-WD-zf47L_xtD6HPHlI
+# GoogleAPIkey
+# AIzaSyC0kKR_GRmV0eCX-WD-zf47L_xtD6HPHlI
+
+#         <script
+#             async defger src="https://googleapis.com/maps/api/js?key=AIzaSyC0kKR_GRmV0eCX-WD-zf47L_xtD6HPHlI>&callback=getPosition">
+#         </script>

@@ -6,8 +6,55 @@
     </head>
     <body>
         <h1>緊急避難所Map</h1>
-        {% for object in object_list %}
-        {{object.evacuation_site}}:{{object.geom}}<br>
-        {% endfor %}
+        <div id='map' stype="width:700px; height:500px"></div>
+
+        <script>
+            // Geolocation APIに対応しているかチェック
+            if (navigator.geolocation) {
+              // Geolocation APIに対応していない場合アラートを表示
+              } else {
+                alert("この端末では位置情報が取得できません");
+                }
+            // 現在地取得処理
+            function getPosition() {
+              // 現在地を取得
+              navigator.geolocation.getCurrentPosition(
+                // 取得成功した場合
+                function(position) {
+                //   alert("緯度:"+position.coords.latitude+",経度"+position.coords.longitude);
+
+                // initMap関数が呼ばれてGoogle MAPが表示
+                initMap(position.coords.latitude, position.coords.longitude);
+                      }
+                    );
+                  }
+
+                function initMap(lat, lng){
+                    // GoogmeMapを表示させる
+
+                        // 1.Mapオブジェクトを生成する。
+                        center = {lat:lat, lng:lng}
+
+                        var map = new google.maps.Map(document.getElementById('map'), {
+                            zoom: 16,
+                            center: center,
+                        });
+                    
+                        // 2.現在地のマーカーを定義する
+                        marker = new google.maps.Marker({
+                            position: center,//マーカーを立てる位置
+                            map: map,//マーカーを立てる地図
+                            icon: {
+                                url: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
+                                scaledSize : new google.maps.Size(50, 50)
+                            }
+                        });
+                }
+        </script>
+
+           <script async defer
+           src="https://maps.googleapis.com/maps/api/js?key=<AIzaSyDpQ06tsbCpUa9xtHqYaDdWwKI9MAz1r9c>&callback=getPosition">
+           </script>
+
     </body>
 </html>

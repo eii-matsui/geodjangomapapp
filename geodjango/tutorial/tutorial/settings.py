@@ -10,6 +10,10 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 
+
+# django.core.exceptions.ImproperlyConfigured: Could not find the GDAL library (tried "gdal204", "gdal203", "gdal202", "gdal201", "gdal20"). Is GDAL installed? If it is, try setting GDAL_LIBRARY_PATH in your settings.
+# システムの環境変数に　C:\OSGeo4W　を追加すれば解消
+
 #　環境変数の設定
 import os
 
@@ -17,8 +21,8 @@ if os.name == 'nt':
    import platform
    POSTGRES = r"C:\Program Files\PostgreSQL\11"
    OSGEO4W = r"C:\OSGeo4W"
-   if '64' in platform.architecture()[0]:
-       OSGEO4W += "64"
+#    if '64' in platform.architecture()[0]:
+    #    OSGEO4W += "64"
    assert os.path.isdir(OSGEO4W), "Directory does not exist: " + OSGEO4W
 
    os.environ['OSGEO4W_ROOT'] = OSGEO4W
@@ -110,7 +114,7 @@ DATABASES = {
        'NAME': 'geodjangodb',
        'USER': 'django_admin',
        'HOST':'localhost',
-       'PASSWORD': 'django_admin',
+       'PASSWORD': 'kuLcSkn2',
    }
 }
 

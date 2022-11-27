@@ -1,6 +1,8 @@
 venv/
 *.url
 setup.sh
+secureData.txt
+
 
 postgresql.password
 *.pyc

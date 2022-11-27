@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+   <meta charset="utf-8">
+   <title>緊急避難場所マップ</title>
+ </head>
+ <body>
+   <h1>緊急避難場所マップ</h1>
+   <div id="map"></div>
+   <script>
+       // Geolocation APIに対応しているかチェック
+       if (navigator.geolocation) {
+         // Geolocation APIに対応していない場合アラートを表示
+         } else {
+           alert("この端末では位置情報が取得できません");
+           }
+       // 現在地取得処理
+       function getPosition() {
+         // 現在地を取得
+         navigator.geolocation.getCurrentPosition(
+           // 取得成功した場合
+           function(position) {
+             /* alert("緯度:"+position.coords.latitude+",経度"+position.coords.longitude); */
+             initMap(position.coords.latitude, position.coords.longitude);              
+             }
+             );
+             }
+           function initMap(lat, lng) {
+           // Google MAPを表示する処理を記述する
+           center = {lat:lat, lng:lng}
+           /* new google.maps.Map()でマップオブジェクトを生成 */
+           var map = new google.maps.Map(document.getElementById('map'), {
+             zoom: 16,
+             center: center,
+           });
+
+           marker = new google.maps.Marker({ // マーカーの追加
+           position: center, // マーカーを立てる位置を指定
+           map: map, // マーカーを立てる地図を指定
+           icon: {
+               url: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
+               scaledSize : new google.maps.Size(50, 50)
+               }
+             });       
+           }
+   </script>
+
+   <script async defer
+src="https://maps.googleapis.com/maps/api/js?key=<APIキー>&callback=getPosition">
+</script>
+
+</body>
+</html>
