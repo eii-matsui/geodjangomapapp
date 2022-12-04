@@ -9,7 +9,6 @@
 
 
         <div id="map"  style="width:700px; height:500px"></div>
-
         <script>
             // Geolocation APIに対応しているかチェック
             if (navigator.geolocation) {
@@ -38,10 +37,16 @@
                         center = {lat:lat, lng:lng}
 
                         var map = new google.maps.Map(document.getElementById('map'), {
-                            zoom: 10,
+                            zoom: 14,
                             center: center,
                         });
+
+                        var directionService = new google.maps.DirectionsService();
+                        var directionRenderer = new google.maps.DirectionsRenderer();
+
+                        directionRenderer.setMap(map);
                     
+
                         // 現在地のマーカーを定義する
                         marker = new google.maps.Marker({ // マーカーの追加
                             position: center,//マーカーを立てる位置
@@ -50,10 +55,9 @@
                                 url: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
                                 scaledSize : new google.maps.Size(50, 50)
                             }
-                        });
-                        
-                        // 3. 吹き出しの定義  infoWindow ではNG　InfoWindow
-                        infoWindow = new google.maps.infoWindow({ // 吹き出しの追加
+                        });                        
+                        // 現在地の吹き出しの定義  infoWindow ではNG　InfoWindow
+                        infoWindow = new google.maps.InfoWindow({ // 吹き出しの追加
                             content :  '<div">現在地</div>'
                         });
                         infoWindow.open(map, marker);//吹き出しを表示させる
@@ -64,24 +68,62 @@
 
                         //　ここからDjangoのview.pyからオブジェクトを取得してループ
                         {% for object in object_list %}
+                            // Django Template(テンプレート) のループカウンタ Djangoではテンプレートのforループ内で{{forloop.counter0}}のようにするとループカウンタを取得することができます。
+                            // {{forloop.counter0}}を使うと0から順にカウントされる n件目　marker[n-1]
                             marker[{{forloop.counter0}}] = new google.maps.Marker({
                                 position: {lat:{{ object.geom.y }},lng: {{ object.geom.x }} },
                                 map: map
                                 });
                             infoWindow[{{forloop.counter0}}] = new google.maps.InfoWindow({ // 吹き出しの追加
-                                content: '<div>' + '{{object.evacuation_site }}' + '</div>' // 吹き出しに表示する内容
+                                content: '<div>' + '{{object.evacuation_site }}' + '</div>' + '<div>' + '{{object.location }}' + '</div>' // 吹き出しに表示する内容
                                 });
                                 markerEvent({{forloop.counter0}}, {{ object.geom.y }}, {{ object.geom.x }}, lat, lng, '{{object.evacuation_site}}'); // マーカーにクリックイベントを追加
+                            
 
                             {% endfor %}
 
+                        function markerEvent(i, lat, lng, c_lat, c_lng, location) {
+                            marker[i].addListener('click', function() { // マーカーをクリックしたとき
 
-                    function markerEvent(i, lat, lng, c_lat, c_lng, location) {
-                        marker[i].addListener('click', function() { // マーカーをクリックしたとき
-                        infoWindow[i].open(map, marker[i]); // 吹き出しの表示
-                        }); // end marker[i].addListener
-                    }   // end function markerEvent
 
+                            // Direction API 開始地点と目的地の定義方法　
+                            var start = new google.maps.LatLng(c_lat, c_lng);
+                            var goal = new google.maps.LatLng(lat, lng);
+
+                            var distance = Math.ceil(google.maps.geometry.spherical.computeDistanceBetween(start, goal));
+                            
+                            infoWindow[i] = new google.maps.InfoWindow( {
+                                content: '<div class="sample">' + location + '<br>' + '移動距離：' + distance + 'm' + '</div>' // 吹き出しに表示する内容
+                            });
+
+
+                            infoWindow[i].open(map, marker[i]); // 吹き出しの表示
+
+
+                            // リクエストパラメータ定義　
+                                // travelMode
+                                    // DRIVING ：道路ネットワークを使用した標準の運転ルート（default)
+                                    // BICYCLING：自転車道と優先道路を介して自転車ルートをリクエスト
+                                    // TRANSIT：公共交通機関のルートを介してルートをリクエスト
+                                    // WALKING：歩道や歩道を介した徒歩ルートをリクエスト
+                            var request = {
+                                origin: start,
+                                destination: goal,
+                                travelMode: google.maps.TravelMode.WALKING
+                            };
+                            
+                            // jsの関数の引数、戻り値の定義方法　function
+                            directionService.route(request, function(result, status) {
+                                // DirectionResultを表示する
+                                if (status == google.maps.DirectionsStatus.OK) {
+                                    directionRenderer.setDirections(result);
+                                }
+                            });
+
+
+
+                            }); // end marker[i].addListener
+                        }   // end function markerEvent
                 }
         </script>
 
