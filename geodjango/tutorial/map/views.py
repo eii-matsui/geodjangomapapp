@@ -8,3 +8,8 @@ class Home(generic.ListView):
     model = Evacuation
     queryset = Evacuation.objects.all()#テーブルに対して実行するクエリ　省略可能でdefaultで全権取得
     template_name: str = "map/index.html"
+
+class HomeTest(generic.ListView):
+    model = Evacuation
+    queryset = Evacuation.objects.all()#テーブルに対して実行するクエリ　省略可能でdefaultで全権取得
+    template_name: str = "map/index_ok.html"

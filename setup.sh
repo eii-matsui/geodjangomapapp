@@ -67,6 +67,10 @@ python manage.py createsuperuser
 # Superuser created successfully.
 
 
+Django管理画面ログイン
+manager/kuLcSkn2
+
+
 # geojsonファイルからdjangoのmodels.pyで定義するテーブルクラス定義のソースコードをogrinspectコマンドを使って自動的に生成します。
 # ogrinspectコマンドを使うとgeojsonファイルを解析してdjangoのmodels.pyで定義するモデルクラスのソースコードを自動的に生成してくれます。
 
@@ -172,8 +176,23 @@ pip　install　django-leaflet
 
 
 # GoogleAPIkey
-# AIzaSyC0kKR_GRmV0eCX-WD-zf47L_xtD6HPHlI
+# soft-div-gis@adesu.org
+# AIzaSyDpQ06tsbCpUa9xtHqYaDdWwKI9MAz1r9c  2022/12/03時点
+
+# adesukedonanika@gmail.com
+# AIzaSyCr_fQbb8jqfmzR2ch5_wASokcH_G9pgPA　2022/12/03時点
 
 #         <script
 #             async defger src="https://googleapis.com/maps/api/js?key=AIzaSyC0kKR_GRmV0eCX-WD-zf47L_xtD6HPHlI>&callback=getPosition">
 #         </script>
+
+
+
+getPosition関数は以下のような処理を行うものとします。
+
+
+
+①google.maps.Markerでマーカーを追加する。
+②google.maps.InfoWindowで吹き出しを追加する。
+③addListenerメソッドでマーカーにクリックイベントを追加する。
+③infoWindow.openで吹き出しを表示する。

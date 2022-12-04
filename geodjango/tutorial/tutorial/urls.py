@@ -19,5 +19,6 @@ from map import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('map/', views.Home.as_view(), name='map')#URLパターンはDjangoのpathを使う。URLパターン、対応するview関数（Classをas_viewで関数化できるメソッド）、URLパターンのの名称を設定
+    path('map/', views.Home.as_view(), name='map'),#URLパターンはDjangoのpathを使う。URLパターン、対応するview関数（Classをas_viewで関数化できるメソッド）、URLパターンのの名称を設定
+    path('maptest/', views.HomeTest.as_view(), name='maptest')#URLパターンはDjangoのpathを使う。URLパターン、対応するview関数（Classをas_viewで関数化できるメソッド）、URLパターンのの名称を設定
 ]

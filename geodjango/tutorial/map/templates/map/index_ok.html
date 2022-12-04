@@ -6,7 +6,8 @@
  </head>
  <body>
    <h1>緊急避難場所マップ</h1>
-   <div id="map"></div>
+
+   <div id="map"  style="width:700px; height:500px"></div>
    <script>
        // Geolocation APIに対応しているかチェック
        if (navigator.geolocation) {
@@ -41,8 +42,39 @@
                url: 'https://maps.google.com/mapfiles/ms/icons/green-dot.png',
                scaledSize : new google.maps.Size(50, 50)
                }
-             });       
-           }
+             });
+           infoWindow = new google.maps.InfoWindow({ // 吹き出しの追加
+              content: '<div">現在地はここ！</div>' // 吹き出しに表示する内容
+            });
+           infoWindow.open(map, marker); // 吹き出しの表示(デフォルトで表示させる)
+　　　　　　　
+　　　　　　  // ********************　ここから下を追加 ********************
+
+           var marker = [];
+           var infoWindow = [];
+           // ここからDjangoのviews.pyからオブジェクトを取得してループ
+           {% for object in object_list %}
+               marker[{{forloop.counter0}}] = new google.maps.Marker({
+                  position: {lat:{{ object.geom.y }},lng: {{ object.geom.x }} },
+                  map: map
+                  });
+               infoWindow[{{forloop.counter0}}] = new google.maps.InfoWindow({ // 吹き出しの追加
+                   content: '<div>' + '{{object.evacuation_site }}' + '</div>' // 吹き出しに表示する内容
+                    });
+               markerEvent({{forloop.counter0}}, {{ object.geom.y }}, {{ object.geom.x }}, lat, lng, '{{object.evacuation_site}}'); // マーカーにクリックイベントを追加
+        
+           {% endfor %}
+ 
+       // マーカーにクリックイベントを追加
+       function markerEvent(i, lat, lng, c_lat, c_lng, location) {
+         marker[i].addListener('click', function() { // マーカーをクリックしたとき
+         infoWindow[i].open(map, marker[i]); // 吹き出しの表示
+         }); // end marker[i].addListener
+       }   // end function markerEvent
+
+     // ********************　ここまでを追加 ********************
+
+     } // end function initMap
    </script>
 
    <script async defer
@@ -51,3 +83,5 @@ src="https://maps.googleapis.com/maps/api/js?key=<APIキー>&callback=getPositio
 
 </body>
 </html>
+
+

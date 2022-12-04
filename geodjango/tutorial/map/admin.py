@@ -8,3 +8,5 @@ from leaflet.admin import LeafletGeoAdmin
 # admin.site.registerメソッドを使ってgeomフィールドをマップ表示
 # admin.site.register(Evacuation, admin.GeoModelAdmin)
 admin.site.register(Evacuation, LeafletGeoAdmin)
+
+

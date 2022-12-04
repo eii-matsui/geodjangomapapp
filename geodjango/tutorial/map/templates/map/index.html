@@ -5,8 +5,10 @@
         <title>山口県の避難所地図</title>
     </head>
     <body>
-        <h1>緊急避難所Map</h1>
-        <div id='map' stype="width:700px; height:500px"></div>
+        <h1>現在地の緊急避難所</h1>
+
+
+        <div id="map"  style="width:700px; height:500px"></div>
 
         <script>
             // Geolocation APIに対応しているかチェック
@@ -21,7 +23,7 @@
               navigator.geolocation.getCurrentPosition(
                 // 取得成功した場合
                 function(position) {
-                //   alert("緯度:"+position.coords.latitude+",経度"+position.coords.longitude);
+                //*   alert("緯度:"+position.coords.latitude+",経度"+position.coords.longitude);
 
                 // initMap関数が呼ばれてGoogle MAPが表示
                 initMap(position.coords.latitude, position.coords.longitude);
@@ -32,16 +34,16 @@
                 function initMap(lat, lng){
                     // GoogmeMapを表示させる
 
-                        // 1.Mapオブジェクトを生成する。
+                        // Mapオブジェクトを生成する。
                         center = {lat:lat, lng:lng}
 
                         var map = new google.maps.Map(document.getElementById('map'), {
-                            zoom: 16,
+                            zoom: 10,
                             center: center,
                         });
                     
-                        // 2.現在地のマーカーを定義する
-                        marker = new google.maps.Marker({
+                        // 現在地のマーカーを定義する
+                        marker = new google.maps.Marker({ // マーカーの追加
                             position: center,//マーカーを立てる位置
                             map: map,//マーカーを立てる地図
                             icon: {
@@ -49,12 +51,46 @@
                                 scaledSize : new google.maps.Size(50, 50)
                             }
                         });
+                        
+                        // 3. 吹き出しの定義  infoWindow ではNG　InfoWindow
+                        infoWindow = new google.maps.infoWindow({ // 吹き出しの追加
+                            content :  '<div">現在地</div>'
+                        });
+                        infoWindow.open(map, marker);//吹き出しを表示させる
+
+
+                        var marker = [];
+                        var infoWindow = [];
+
+                        //　ここからDjangoのview.pyからオブジェクトを取得してループ
+                        {% for object in object_list %}
+                            marker[{{forloop.counter0}}] = new google.maps.Marker({
+                                position: {lat:{{ object.geom.y }},lng: {{ object.geom.x }} },
+                                map: map
+                                });
+                            infoWindow[{{forloop.counter0}}] = new google.maps.InfoWindow({ // 吹き出しの追加
+                                content: '<div>' + '{{object.evacuation_site }}' + '</div>' // 吹き出しに表示する内容
+                                });
+                                markerEvent({{forloop.counter0}}, {{ object.geom.y }}, {{ object.geom.x }}, lat, lng, '{{object.evacuation_site}}'); // マーカーにクリックイベントを追加
+
+                            {% endfor %}
+
+
+                    function markerEvent(i, lat, lng, c_lat, c_lng, location) {
+                        marker[i].addListener('click', function() { // マーカーをクリックしたとき
+                        infoWindow[i].open(map, marker[i]); // 吹き出しの表示
+                        }); // end marker[i].addListener
+                    }   // end function markerEvent
+
                 }
         </script>
 
-           <script async defer
-           src="https://maps.googleapis.com/maps/api/js?key=<AIzaSyDpQ06tsbCpUa9xtHqYaDdWwKI9MAz1r9c>&callback=getPosition">
-           </script>
+        <!-- GoogleMap API -->
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpQ06tsbCpUa9xtHqYaDdWwKI9MAz1r9c&callback=getPosition">
+        </script>
+
+
 
     </body>
 </html>
