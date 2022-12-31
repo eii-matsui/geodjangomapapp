@@ -29,4 +29,15 @@ class Migration(migrations.Migration):
                 ('geom', django.contrib.gis.db.models.fields.PointField(srid=4326)),
             ],
         ),
+        migrations.CreateModel(
+            name='ForestSnapPhoto',
+            fields=[
+                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),
+                ('image_FilePath', models.CharField(max_length=255)),
+                ('image_DateTime', models.CharField(max_length=255)),
+                ('image_Width', models.CharField(max_length=255)),
+                ('image_Height', models.CharField(max_length=255)),
+                ('geom', django.contrib.gis.db.models.fields.PointField(srid=4326)),
+            ],
+        ),        
     ]
