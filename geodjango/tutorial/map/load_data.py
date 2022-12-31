@@ -1,6 +1,6 @@
 
 import os
-from map.models import Evacuation
+from map.models import Evacuation, ForestSnapPhoto
 from django.contrib.gis.utils.layermapping import LayerMapping
 # Django最新バージョンで　LayerMapping　は　layermapping　のモジュールになった
 
@@ -24,13 +24,23 @@ mapping = {
 geojson_file = os.path.abspath(
     os.path.join(os.path.dirname(__file__), 'data', '35_yamaguchi_HinanPoint.geojson'))
 
+geojson_file_exif = os.path.abspath(
+    os.path.join(os.path.dirname(__file__), 'data', 'Forest_photoImages_20211010_JPG.geojson'))
+
 
 # layermappingクラスで、geojsonデータとDjangoのModelフィールドの関連づけ（Mapping）を行い、自動的にgeojsonファイルからmodel.pyで定義したテーブルにデータを登録できる
 # 実行
 def run(verbose=True):
    lm = LayerMapping(Evacuation, geojson_file,    
-        mapping,transform=False, encoding='UTF-8')
+        mapping=mapping,transform=False, encoding='UTF-8')
+
    lm.save(strict=True, verbose=True)
+
+   lm = LayerMapping(ForestSnapPhoto, geojson_file_exif,
+        transform=False, encoding='UTF-8')
+   lm.save(strict=True, verbose=True)
+
+
     # strict=Trueにすることで最初に発生したエラーで処理が停止します。
 
 
