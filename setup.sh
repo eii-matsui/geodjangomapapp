@@ -196,3 +196,25 @@ getPosition関数は以下のような処理を行うものとします。
 ②google.maps.InfoWindowで吹き出しを追加する。
 ③addListenerメソッドでマーカーにクリックイベントを追加する。
 ③infoWindow.openで吹き出しを表示する。
+
+
+
+D:\OneDrive\Document\GitHub\geodjangomapapp\geodjango\tutorial>python manage.py ogrinspect --srid==4326 map\data\Forest_photoImages_20211010_JPG.geojson ForestSnapPhoto
+# This is an auto-generated Django model module created by ogrinspect.
+from django.contrib.gis.db import models
+
+
+class ForestSnapPhoto(models.Model):
+    image_filepath = models.CharField(max_length=0)
+    image_datetime = models.DateTimeField()
+    image_width = models.CharField(max_length=0)
+    image_height = models.CharField(max_length=0)
+    focallength = models.CharField(max_length=0)
+    geom = models.PointField(srid==4326)
+
+
+D:\OneDrive\Document\GitHub\geodjangomapapp\geodjango\tutorial>python manage.py makemigrations map
+    Migrations for 'map':
+  map\migrations\0001_initial.py
+    - Create model Evacuation
+    - Create model ForestSnapPhoto

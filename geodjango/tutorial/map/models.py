@@ -56,4 +56,4 @@ class ForestSnapPhoto(models.Model):
 
 
     def __str__(self):
-        return self.evacuation_site
+        return self.image_DateTime

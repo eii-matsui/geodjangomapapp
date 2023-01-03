@@ -129,6 +129,7 @@ def convertImage2Geojson(imageDirPath:str, out_geojsonPath:str):
 
 imagesDirPath = "G:\\マイドライブ\\Forest\\photoImages\\20211010\\JPG\\"
 
-out_geojson = "C:\\Users\\adesu\\OneDrive\\Document\\GitHub\\geodjangomapapp\\geodjango\\tutorial\\map\\data\\Forest_photoImages_20211010_JPG.geojson"
+
+out_geojson = "D:\\OneDrive\\Document\\GitHub\\geodjangomapapp\\geodjango\\tutorial\\map\\data\\Forest_photoImages_20211010_JPG.geojson"
 
 convertImage2Geojson(imagesDirPath,out_geojson)
