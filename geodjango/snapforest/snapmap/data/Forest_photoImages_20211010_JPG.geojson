@@ -1,0 +1,1824 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2854,
+          131.2945
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0107.jpg",
+        "image_DateTime": "2021-10-10 08:57:10",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2858,
+          131.2946
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0109.jpg",
+        "image_DateTime": "2021-10-10 08:57:18",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2871,
+          131.2945
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0113.jpg",
+        "image_DateTime": "2021-10-10 08:59:29",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2871,
+          131.2945
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0114.jpg",
+        "image_DateTime": "2021-10-10 08:59:35",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2873,
+          131.2946
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0115.jpg",
+        "image_DateTime": "2021-10-10 08:59:43",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2874,
+          131.2947
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0116.jpg",
+        "image_DateTime": "2021-10-10 08:59:52",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.295
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0117.jpg",
+        "image_DateTime": "2021-10-10 09:00:30",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.295
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0118.jpg",
+        "image_DateTime": "2021-10-10 09:00:35",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.295
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0119.jpg",
+        "image_DateTime": "2021-10-10 09:00:46",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2951
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0120.jpg",
+        "image_DateTime": "2021-10-10 09:00:48",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2952
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0121.jpg",
+        "image_DateTime": "2021-10-10 09:01:02",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2952
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0122.jpg",
+        "image_DateTime": "2021-10-10 09:01:07",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2878,
+          131.2953
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0124.jpg",
+        "image_DateTime": "2021-10-10 09:02:03",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2882,
+          131.2957
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0126.jpg",
+        "image_DateTime": "2021-10-10 09:03:13",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2882,
+          131.2958
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0127.jpg",
+        "image_DateTime": "2021-10-10 09:03:15",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2958
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0128.jpg",
+        "image_DateTime": "2021-10-10 09:03:16",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2958
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0129.jpg",
+        "image_DateTime": "2021-10-10 09:03:27",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2958
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0130.jpg",
+        "image_DateTime": "2021-10-10 09:03:31",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2884,
+          131.296
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0131.jpg",
+        "image_DateTime": "2021-10-10 09:04:18",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2885,
+          131.296
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0132.jpg",
+        "image_DateTime": "2021-10-10 09:04:21",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2885,
+          131.296
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0133.jpg",
+        "image_DateTime": "2021-10-10 09:04:24",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.289,
+          131.2962
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0134.jpg",
+        "image_DateTime": "2021-10-10 09:06:06",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.289,
+          131.2962
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0135.jpg",
+        "image_DateTime": "2021-10-10 09:06:10",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2889,
+          131.2965
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0136.jpg",
+        "image_DateTime": "2021-10-10 09:09:10",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2889,
+          131.2965
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0137.jpg",
+        "image_DateTime": "2021-10-10 09:09:14",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2889,
+          131.2965
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0138.jpg",
+        "image_DateTime": "2021-10-10 09:09:17",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2889,
+          131.2966
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0139.jpg",
+        "image_DateTime": "2021-10-10 09:09:57",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2888,
+          131.2968
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0140.jpg",
+        "image_DateTime": "2021-10-10 09:10:33",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2886,
+          131.297
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0141.jpg",
+        "image_DateTime": "2021-10-10 09:11:06",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2886,
+          131.297
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0142.jpg",
+        "image_DateTime": "2021-10-10 09:11:10",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2887,
+          131.2971
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0143.jpg",
+        "image_DateTime": "2021-10-10 09:11:12",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2886,
+          131.2971
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0144.jpg",
+        "image_DateTime": "2021-10-10 09:11:17",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2885,
+          131.2977
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0147.jpg",
+        "image_DateTime": "2021-10-10 09:13:00",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2884,
+          131.2977
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0148.jpg",
+        "image_DateTime": "2021-10-10 09:13:55",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2884,
+          131.2977
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0149.jpg",
+        "image_DateTime": "2021-10-10 09:13:56",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2884,
+          131.2977
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0150.jpg",
+        "image_DateTime": "2021-10-10 09:14:01",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2977
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0151.jpg",
+        "image_DateTime": "2021-10-10 09:14:41",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2977
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0152.jpg",
+        "image_DateTime": "2021-10-10 09:14:53",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2977
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0153.jpg",
+        "image_DateTime": "2021-10-10 09:14:57",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2977
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0154.jpg",
+        "image_DateTime": "2021-10-10 09:15:01",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2881,
+          131.2978
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0155.jpg",
+        "image_DateTime": "2021-10-10 09:15:32",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2879,
+          131.2976
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0157.jpg",
+        "image_DateTime": "2021-10-10 09:16:25",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2879,
+          131.2975
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0158.jpg",
+        "image_DateTime": "2021-10-10 09:16:37",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2879,
+          131.2975
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0159.jpg",
+        "image_DateTime": "2021-10-10 09:16:38",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2878,
+          131.2975
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0160.jpg",
+        "image_DateTime": "2021-10-10 09:17:07",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2974
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0161.jpg",
+        "image_DateTime": "2021-10-10 09:17:19",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2974
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0162.jpg",
+        "image_DateTime": "2021-10-10 09:17:25",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2974
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0163.jpg",
+        "image_DateTime": "2021-10-10 09:17:37",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2974
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0164.jpg",
+        "image_DateTime": "2021-10-10 09:17:39",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2974
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0165.jpg",
+        "image_DateTime": "2021-10-10 09:17:42",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2974
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0166.jpg",
+        "image_DateTime": "2021-10-10 09:17:53",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2974
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0167.jpg",
+        "image_DateTime": "2021-10-10 09:17:57",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2973
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0168.jpg",
+        "image_DateTime": "2021-10-10 09:22:11",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2972
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0169.jpg",
+        "image_DateTime": "2021-10-10 09:22:53",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2972
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0170.jpg",
+        "image_DateTime": "2021-10-10 09:22:54",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2972
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0171.jpg",
+        "image_DateTime": "2021-10-10 09:22:56",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2971
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0172.jpg",
+        "image_DateTime": "2021-10-10 09:22:58",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2971
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0173.jpg",
+        "image_DateTime": "2021-10-10 09:23:05",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2875,
+          131.297
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0174.jpg",
+        "image_DateTime": "2021-10-10 09:23:15",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2875,
+          131.297
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0175.jpg",
+        "image_DateTime": "2021-10-10 09:23:18",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2875,
+          131.2969
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0176.jpg",
+        "image_DateTime": "2021-10-10 09:23:38",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2875,
+          131.2968
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0177.jpg",
+        "image_DateTime": "2021-10-10 09:23:42",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2875,
+          131.2968
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0178.jpg",
+        "image_DateTime": "2021-10-10 09:23:45",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2875,
+          131.2968
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0179.jpg",
+        "image_DateTime": "2021-10-10 09:24:07",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2967
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0180.jpg",
+        "image_DateTime": "2021-10-10 09:24:20",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2967
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0181.jpg",
+        "image_DateTime": "2021-10-10 09:24:31",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2876,
+          131.2966
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0182.jpg",
+        "image_DateTime": "2021-10-10 09:24:32",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2966
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0183.jpg",
+        "image_DateTime": "2021-10-10 09:24:38",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2967
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0185.jpg",
+        "image_DateTime": "2021-10-10 09:25:12",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2967
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0186.jpg",
+        "image_DateTime": "2021-10-10 09:25:16",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2967
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0187.jpg",
+        "image_DateTime": "2021-10-10 09:25:18",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2966
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0189.jpg",
+        "image_DateTime": "2021-10-10 09:25:28",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2966
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0190.jpg",
+        "image_DateTime": "2021-10-10 09:25:35",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2966
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0191.jpg",
+        "image_DateTime": "2021-10-10 09:25:37",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2966
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0192.jpg",
+        "image_DateTime": "2021-10-10 09:25:42",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2965
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0194.jpg",
+        "image_DateTime": "2021-10-10 09:25:57",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2959
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0196.jpg",
+        "image_DateTime": "2021-10-10 09:31:05",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2959
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0197.jpg",
+        "image_DateTime": "2021-10-10 09:31:58",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2883,
+          131.2959
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0198.jpg",
+        "image_DateTime": "2021-10-10 09:31:59",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2881,
+          131.2957
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0199.jpg",
+        "image_DateTime": "2021-10-10 09:34:03",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2881,
+          131.2957
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0201.jpg",
+        "image_DateTime": "2021-10-10 09:34:11",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.288,
+          131.2956
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0202.jpg",
+        "image_DateTime": "2021-10-10 09:34:28",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2879,
+          131.2955
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0203.jpg",
+        "image_DateTime": "2021-10-10 09:34:36",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2486,
+          131.2628
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0214.jpg",
+        "image_DateTime": "2021-10-10 10:27:20",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2486,
+          131.2628
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0215.jpg",
+        "image_DateTime": "2021-10-10 10:27:21",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2486,
+          131.2628
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0216.jpg",
+        "image_DateTime": "2021-10-10 10:27:22",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2486,
+          131.2628
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0217.jpg",
+        "image_DateTime": "2021-10-10 10:27:22",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2486,
+          131.2628
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0218.jpg",
+        "image_DateTime": "2021-10-10 10:27:23",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2864,
+          131.2945
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0222.jpg",
+        "image_DateTime": "2021-10-10 10:42:06",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2951
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0223.jpg",
+        "image_DateTime": "2021-10-10 10:50:24",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2951
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0225.jpg",
+        "image_DateTime": "2021-10-10 10:50:27",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2952
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0230.jpg",
+        "image_DateTime": "2021-10-10 10:51:03",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2952
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0231.jpg",
+        "image_DateTime": "2021-10-10 10:51:04",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2877,
+          131.2952
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0232.jpg",
+        "image_DateTime": "2021-10-10 10:51:08",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2885,
+          131.296
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0237.jpg",
+        "image_DateTime": "2021-10-10 10:52:42",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2885,
+          131.296
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0238.jpg",
+        "image_DateTime": "2021-10-10 10:52:44",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2885,
+          131.2961
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0239.jpg",
+        "image_DateTime": "2021-10-10 10:52:45",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2885,
+          131.2961
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0240.jpg",
+        "image_DateTime": "2021-10-10 10:52:47",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2884,
+          131.296
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0241.jpg",
+        "image_DateTime": "2021-10-10 10:52:49",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2887,
+          131.296
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0245.jpg",
+        "image_DateTime": "2021-10-10 10:53:48",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.289,
+          131.2961
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0248.jpg",
+        "image_DateTime": "2021-10-10 10:54:51",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2891,
+          131.2962
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0253.jpg",
+        "image_DateTime": "2021-10-10 10:55:09",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.289,
+          131.2962
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0256.jpg",
+        "image_DateTime": "2021-10-10 10:55:24",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2796,
+          131.2883
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0260.jpg",
+        "image_DateTime": "2021-10-10 11:11:46",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2797,
+          131.2881
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0261.jpg",
+        "image_DateTime": "2021-10-10 11:11:49",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2797,
+          131.2879
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0262.jpg",
+        "image_DateTime": "2021-10-10 11:11:53",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          34.2798,
+          131.2874
+        ]
+      },
+      "properties": {
+        "image_FilePath": "G:\\\u30de\u30a4\u30c9\u30e9\u30a4\u30d6\\Forest\\photoImages\\20211010\\JPG\\IMG_0263.jpg",
+        "image_DateTime": "2021-10-10 11:11:59",
+        "image_Width": "4032",
+        "image_Height": "3024",
+        "FocalLength": "3.0"
+      }
+    }
+  ]
+}
