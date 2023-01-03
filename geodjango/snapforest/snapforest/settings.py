@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.gis',  #add
-    'snapmap.apps.MapConfig',  #add
+    'snapmap.apps.SnapmapConfig',  #add
 ]
 
 MIDDLEWARE = [
