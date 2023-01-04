@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from snapmap import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('snapmap/', views.Home.as_view(), name='snapmap'),#URLパターンはDjangoのpathを使う。URLパターン、対応するview関数（Classをas_viewで関数化できるメソッド）、URLパターンのの名称を設定
 ]
