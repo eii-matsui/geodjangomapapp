@@ -1,6 +1,6 @@
 from django.shortcuts import render
-import django.views import generic
-from models import ForestSnapPhoto
+from django.views import generic
+from .models import ForestSnapPhoto
 
 
 # Create your views here.
