@@ -19,20 +19,20 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 import os
 
 if os.name == 'nt':
-   import platform
-   POSTGRES = r"C:\Program Files\PostgreSQL\11"
-   OSGEO4W = r"C:\OSGeo4W"
+    import platform
+    POSTGRES = r"C:\Program Files\PostgreSQL\11"
+    OSGEO4W = r"C:\OSGeo4W"
 #    if '64' in platform.architecture()[0]:
     #    OSGEO4W += "64"
-   assert os.path.isdir(OSGEO4W), "Directory does not exist: " + OSGEO4W
+    assert os.path.isdir(OSGEO4W), "Directory does not exist: " + OSGEO4W
 
-   os.environ['OSGEO4W_ROOT'] = OSGEO4W
-   os.environ['POSTGRES_ROOT'] = POSTGRES
-   os.environ['GDAL_LIBRARY_PATH'] = OSGEO4W + r"\bin"
-   os.environ['GEOS_LIBRARY_PATH'] = OSGEO4W + r"\bin"
-   os.environ['GDAL_DATA'] = OSGEO4W + r"\share\gdal"
-   os.environ['PROJ_LIB'] = OSGEO4W + r"\share\proj"
-   os.environ['PATH'] = OSGEO4W + r"\bin;" + POSTGRES + r"\bin;" + os.environ['PATH']
+    os.environ['OSGEO4W_ROOT'] = OSGEO4W
+    os.environ['POSTGRES_ROOT'] = POSTGRES
+    os.environ['GDAL_LIBRARY_PATH'] = OSGEO4W + r"\bin"
+    os.environ['GEOS_LIBRARY_PATH'] = OSGEO4W + r"\bin"
+    os.environ['GDAL_DATA'] = OSGEO4W + r"\share\gdal"
+    os.environ['PROJ_LIB'] = OSGEO4W + r"\share\proj"
+    os.environ['PATH'] = OSGEO4W + r"\bin;" + POSTGRES + r"\bin;" + os.environ['PATH']
 
 
 

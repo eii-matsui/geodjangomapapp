@@ -90,10 +90,6 @@ def convertImage2Geojson(imageDirPath:str, out_geojsonPath:str):
         if re.search('\d+\.(jpg|png)', p)]
 
     EXIFINFOS = ['GPSInfo', 'ResolutionUnit', 'XResolution', 'YResolution','CompressedBitsPerPixel', 'DateTimeOriginal', 'FocalLength', 'ExifImageWidth', 'ExifImageHeight']
-    longitudes = []
-    latitudes = []
-    takedTimes = []
-
 
 
     ft_all = []
@@ -125,7 +121,7 @@ def convertImage2Geojson(imageDirPath:str, out_geojsonPath:str):
 
     with open(out_geojsonPath, 'w') as f:
         dump(ft_colct, f, indent=2)
-    print("Converted!\n",out_geojsonPath)
+    print("Converted! \t image to geojson\n",out_geojsonPath)
 
 
 imagesDirPath = "I:\\マイドライブ\\Forest\\photoImages\\20211010\\JPG\\"

@@ -1,9 +1,6 @@
 from django.contrib.gis.db import models
 
 
-# Create your models here.
-
-
 class ForestSnapPhoto(models.Model):
     
     # image_FilePath    ：元の画像保管パス
