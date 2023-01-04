@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.gis',  #add
     'snapmap.apps.SnapmapConfig',  #add
+    'leaflet'
 ]
 
 MIDDLEWARE = [
