@@ -1,8 +1,11 @@
 venv/
+geodjango/tutorial/
 *.url
+geodjangomapapp.code-workspace
 setup.sh
 secureData.txt
-
+*.sql
+*.zip
 
 *startbootstrap-stylish-portfolio-gh-pages*
 

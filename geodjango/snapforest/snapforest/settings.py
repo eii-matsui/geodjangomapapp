@@ -109,7 +109,7 @@ DATABASES = {
        'NAME': 'snapmapforestdb',
        'USER': 'django3_admin',
        'HOST':'localhost',
-       'PASSWORD': 'kuLcSkn2',
+       'PASSWORD': 'aaapass',
    }
 }
 
