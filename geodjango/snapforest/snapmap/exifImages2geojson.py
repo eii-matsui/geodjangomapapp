@@ -102,7 +102,7 @@ def convertImage2Geojson(imageDirPath:str, out_geojsonPath:str):
     for path in tqdm(imgPaths):
         # print(path)
         exifDict = get_exif_of_image(path, EXIFINFOS)
-        takedTime = datetime.datetime.strptime(exifDict['DateTimeOriginal'], '%Y:%m:%d %H:%M:%S')
+        # takedTime = datetime.datetime.strptime(exifDict['DateTimeOriginal'], '%Y:%m:%d %H:%M:%S')
         # takedTimeStr = takedTime.strftime('%Y年%m月%d日_%H:%M')
         
         lon = dms2deg(tuple(exifDict['GPSInfo'][2]))
@@ -111,7 +111,8 @@ def convertImage2Geojson(imageDirPath:str, out_geojsonPath:str):
     #     geojsonでは型指定できない　すべてStringへ変換
         ft = Feature(geometry = Point((lon,lat,)),
                     properties = {'image_FilePath': path,
-                                'image_DateTime': str(takedTime),
+                                # 'image_DateTime': str(takedTime),
+                                'image_DateTime': exifDict['DateTimeOriginal'],
                                 'image_Width': str(exifDict['ExifImageWidth']),
                                 'image_Height': str(exifDict['ExifImageHeight']),
                                 'FocalLength': str(exifDict['FocalLength'])
@@ -124,12 +125,12 @@ def convertImage2Geojson(imageDirPath:str, out_geojsonPath:str):
 
     with open(out_geojsonPath, 'w') as f:
         dump(ft_colct, f, indent=2)
-    print("COnverted!\n",out_geojsonPath)
+    print("Converted!\n",out_geojsonPath)
 
 
-imagesDirPath = "G:\\マイドライブ\\Forest\\photoImages\\20211010\\JPG\\"
+imagesDirPath = "I:\\マイドライブ\\Forest\\photoImages\\20211010\\JPG\\"
 
 
-out_geojson = "D:\\OneDrive\\Document\\GitHub\\geodjangomapapp\\geodjango\\tutorial\\map\\data\\Forest_photoImages_20211010_JPG.geojson"
+out_geojson = "D:\\OneDrive\\Document\\GitHub\\geodjangomapapp\\geodjango\\snapforest\\snapmap\\data\\Forest_photoImages_20211010_JPG2.geojson"
 
 convertImage2Geojson(imagesDirPath,out_geojson)

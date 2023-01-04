@@ -1,3 +1,6 @@
-from django.contrib import admin
+#from django.contrib import admin
+from django.contrib.gis import admin
+from snapmap.models import ForestSnapPhoto
 
-# Register your models here.
+admin.site.register(ForestSnapPhoto, admin.GeoModelAdmin)
+
