@@ -105,8 +105,8 @@ def convertImage2Geojson(imageDirPath:str, out_geojsonPath:str):
         # takedTime = datetime.datetime.strptime(exifDict['DateTimeOriginal'], '%Y:%m:%d %H:%M:%S')
         # takedTimeStr = takedTime.strftime('%Y年%m月%d日_%H:%M')
         
-        lon = dms2deg(tuple(exifDict['GPSInfo'][2]))
-        lat = dms2deg(tuple(exifDict['GPSInfo'][4]))
+        lon = dms2deg(tuple(exifDict['GPSInfo'][4]))
+        lat = dms2deg(tuple(exifDict['GPSInfo'][2]))
 
     #     geojsonでは型指定できない　すべてStringへ変換
         ft = Feature(geometry = Point((lon,lat,)),

@@ -7,6 +7,6 @@ secureData.txt
 postgresql.password
 *.pyc
 *.pyc
-geodjango/tutorial/35_yamaguchi_HinanPoint.geojson
 index_map.html
-geodjango/tutorial/map/data/Forest_photoImages_20211010_JPG.geojson
+*.geojson
+*.txt

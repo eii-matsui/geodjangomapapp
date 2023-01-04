@@ -14,7 +14,6 @@ class ForestSnapPhoto(models.Model):
 
     image_FilePath = models.CharField(max_length=255)
     image_DateTime = models.CharField(max_length=255)
-    # image_DateTime = models.DateTimeField(help_text="Photo DateTime")
     image_Width = models.CharField(max_length=255)
     image_Height = models.CharField(max_length=255)
     FocalLength = models.CharField(max_length=255)
@@ -22,4 +21,4 @@ class ForestSnapPhoto(models.Model):
 
 
     def __str__(self):
-        return self.image_DateTime
+        return self.image_FilePath
