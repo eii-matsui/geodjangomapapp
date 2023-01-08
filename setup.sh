@@ -218,3 +218,19 @@ D:\OneDrive\Document\GitHub\geodjangomapapp\geodjango\tutorial>python manage.py 
   map\migrations\0001_initial.py
     - Create model Evacuation
     - Create model ForestSnapPhoto
+
+
+
+VPSでデブロイ
+
+Windowsの機能
+
+IISをインストール
+CGIをインストール
+
+python環境に下記をインストール
+wfastcgi
+
+pip install wfastcgi
+
+`Successfully installed wfastcgi-3.0.0`
