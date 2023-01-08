@@ -1,4 +1,6 @@
-Django==3.2.8
+Django==4.1.3
 psycopg2==2.9.1
 six==1.14.0
 django-leaflet
+dj_database_url
+wfastcgi

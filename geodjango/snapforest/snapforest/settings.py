@@ -107,9 +107,11 @@ DATABASES = {
    'default': {
        'ENGINE': 'django.contrib.gis.db.backends.postgis',
        'NAME': 'snapmapforestdb',
-       'USER': 'django3_admin',
-       'HOST':'localhost',
-       'PASSWORD': 'kuLcSkn2',
+       'USER': 'django_admin',
+       'PASSWORD': 'django_admin',
+       'HOST':'127.0.0.1',
+    #    'HOST':'164.70.87.131',
+       'PORT': '6831',
    }
 }
 
@@ -149,6 +151,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.1/howto/static-files/
 
 STATIC_URL = 'static/'
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field
