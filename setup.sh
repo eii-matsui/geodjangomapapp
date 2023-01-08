@@ -220,6 +220,8 @@ D:\OneDrive\Document\GitHub\geodjangomapapp\geodjango\tutorial>python manage.py 
     - Create model ForestSnapPhoto
 
 
+https://github.com/Johnnyboycurtis/webproject/blob/master/web-config-template
+
 
 VPSでデブロイ
 
@@ -231,6 +233,48 @@ CGIをインストール
 python環境に下記をインストール
 wfastcgi
 
-pip install wfastcgi
 
-`Successfully installed wfastcgi-3.0.0`
+wwwroot/snapforestへWeb.configを配置
+
+Python環境のパス`C:\Program Files\Python310`へ
+`IIS AppPool\DefaultAppPool`＞名前の確認 してフルコントロールの権限を追加
+
+Pythonのvenv仮想環境は使用しない。
+
+
+管理者としてcmdを開く。
+C:\>pip install wfastcgi
+```
+Collecting wfastcgi
+  Using cached wfastcgi-3.0.0.tar.gz (14 kB)
+  Preparing metadata (setup.py) ... done
+Installing collected packages: wfastcgi
+  DEPRECATION: wfastcgi is being installed using the legacy 'setup.py install' method, because it does not have a 'pyproject.toml' and the 'wheel' package is not installed. pip 23.1 will enforce this behaviour change. A possible replacement is to enable the '--use-pep517' option. Discussion can be found at https://github.com/pypa/pip/issues/8559
+  Running setup.py install for wfastcgi ... done
+Successfully installed wfastcgi-3.0.0
+```
+
+C:\>wfastcgi-enable
+```
+構成変更を構成コミット パス "MACHINE/WEBROOT/APPHOST" の "MACHINE/WEBROOT/APPHOST" のセクション "system.webServer/fastCgi" に適用しました
+""C:\Program Files\Python310\python.exe"|"C:\Program Files\Python310\lib\site-packages\wfastcgi.py"" can now be used as a FastCGI script processor
+```
+
+
+
+IIS>サーバー名>構成エディタ>
+ セクション>system.webServer/handlersを選択>セクションのロックを解除
+
+
+IIS>サーバー名>Default Web Site>右クリック>仮想ディレクトリを追加
+static
+`C:\inetpub\wwwroot\snapforest\static`
+
+Webアクセス許可
+FireWall>詳細設定>受信の規則>80許可(world wide web)
+
+500ServerError対策
+Python環境のパス`C:\inetpub\wwwroot\snapforest`へ
+`IIS AppPool\DefaultAppPool`＞名前の確認 してフルコントロールの権限を追加
+
+

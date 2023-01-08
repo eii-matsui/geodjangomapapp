@@ -10,12 +10,19 @@ Function mkdirIfNotExist($Path) {
     }
 }
 
+$projectName = "snapforest"
 
-$devDir = "C:\geodjango\geodjangomapapp\geodjango\snapforest"
-$deployDir = "C:\inetpub\wwwroot\"
-deleteIfExist $deployDir + "snapforest"
+$devDir = "C:\geodjango\geodjangomapapp\geodjango\" + $projectName + "\"
+$webDir = "C:\inetpub\wwwroot\"
+$deployDir = $webDir + $projectName + "\"
+# deleteIfExist $deployDir
+
+
+$webConfigPath = $devDir + "web.config"
+
 
 
 
 Copy-Item $devDir $deployDir -Force -Recurse
+Copy-Item $webConfigPath $webDir -Force -Recurse
 # New-Item $BACKUPFOLDER -ItemType Directory
