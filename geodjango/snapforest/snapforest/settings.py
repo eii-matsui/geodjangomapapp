@@ -110,8 +110,17 @@ DATABASES = {
        'HOST':'127.0.0.1',
     #    'HOST':'164.70.87.131',
        'PORT': '6831',
+       'USER': 'django_admin',
+       'HOST':'localhost',
+       'PASSWORD': 'django_admin',
    }
+}
 
+AUTH_PASSWORD_VALIDATORS = [
+    {
+        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+    },
+    {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
