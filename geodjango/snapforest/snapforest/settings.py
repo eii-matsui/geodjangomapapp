@@ -107,23 +107,11 @@ DATABASES = {
    'default': {
        'ENGINE': 'django.contrib.gis.db.backends.postgis',
        'NAME': 'snapmapforestdb',
-       'USER': 'django_admin',
-       'PASSWORD': 'django_admin',
        'HOST':'127.0.0.1',
     #    'HOST':'164.70.87.131',
        'PORT': '6831',
    }
-}
 
-
-# Password validation
-# https://docs.djangoproject.com/en/4.1/ref/settings/#auth-password-validators
-
-AUTH_PASSWORD_VALIDATORS = [
-    {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {

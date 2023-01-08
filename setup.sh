@@ -62,13 +62,13 @@ python manage.py migrate
 python manage.py createsuperuser
 # ユーザー名 (leave blank to use 'adesu1'): manager
 # メールアドレス:
-# Password:kuLcSkn2
-# Password (again):kuLcSkn2
+# Password:aaapass
+# Password (again):aaapass
 # Superuser created successfully.
 
 
 Django管理画面ログイン
-manager/kuLcSkn2
+manager/aaapass
 
 
 # geojsonファイルからdjangoのmodels.pyで定義するテーブルクラス定義のソースコードをogrinspectコマンドを使って自動的に生成します。
